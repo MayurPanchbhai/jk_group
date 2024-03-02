@@ -1827,22 +1827,68 @@ section {
   }
 }
 
-
-
 /* here start  */
-
-
 .custom-bg-color{
   background-color: #ffffff;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-
 .placement-font-main{
   font-size: 25px;
   /* padding: 5px; */
 }
-
 .placement-font-sub{
   font-size: 15px;
   /* padding: 5px; */
+}
+/* //// about /// */
+.first-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.first-table th,
+.first-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.first-table th {
+  background-color: #37517e;
+  color: white;
+  text-align: center;
+}
+.first-table td {
+  text-align: left;
+}
+.first-table tbody tr:hover {
+  background-color: #ddd;
+}
+/* second table */
+table thead th {
+  background-color: #37517e;
+  color: white;
+  border: 1px solid #37517e;
+}
+
+.table-fill {
+  text-align: left;
+  line-height: 1.5;
+  border-collapse: collapse;
+  width: 100%;
+}
+.table-fill th,
+.table-fill td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+}
+.table-fill thead th {
+  font-weight: bold;
+}
+.table-fill tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.table-fill .left-data {
+  font-weight: bold;
+  width: 150px;
+}
+.table-fill .right-data {
+  padding-left: 20px;
 }
